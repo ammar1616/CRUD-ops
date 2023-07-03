@@ -7,7 +7,7 @@ app.use(express.json())
 const mysql = require("mysql2")
 const query = mysql.createConnection({
     host: "localhost",
-    database: "week2_task0",
+    database: "try_task",
     user: "root",
     password: ""
 })
